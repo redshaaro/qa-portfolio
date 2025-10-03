@@ -1,0 +1,87 @@
+v2.id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases,parameters,is_muted
+,,,,,,,,,,,,,,,,,,,,1,,Basket,1,,
+1,Verify user can successfully place order with valid payment and billing details.,,Basket has at least one item.,"Basket emptied, order recorded.",,high,critical,functional,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Enter valid billing details""
+2. ""Enter valid payment details""
+3. ""Click \u201cContinue to checkout.\u201d""
+","1. """"
+2. """"
+3. """"
+","1. """"
+2. """"
+3. """"
+",,,1,,Basket,,,no
+2,Verify basket total updates correctly when items are added.,,User is logged in with empty basket.,Correct total displayed.,,high,critical,functional,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Add 3 different items""
+2. ""View basket total""
+","1. """"
+2. """"
+","1. """"
+2. """"
+",,,1,,Basket,,,no
+3,Verify basket total updates when items are removed.,,Basket has multiple items.,,,high,critical,functional,undefined,is-not-automated,actual,no,e2e,classic,"1. ""Remove 1 item.""
+","1. """"
+","1. """"
+",,,1,,Basket,,,no
+4,Verify promo code applies discount correctly.,,"Basket has at least one item, valid promo code exists.",,,high,critical,functional,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Enter promo code""
+2. ""Click Redeem.""
+","1. """"
+2. """"
+","1. """"
+2. """"
+",,,1,,Basket,,,no
+5,Verify delivery option changes total price when selected.,,Basket has at least one item.,Delivery option applied.,,high,critical,functional,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Select \u201cStandard Shipping\u201d instead of \u201cCollect.\u201d""
+","1. """"
+","1. """"
+",,,1,,Basket,,,no
+6,Verify order persists after page refresh before checkout.,,Items added to basket.,Basket state preserved.,,medium,normal,functional,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Refresh page.""
+","1. """"
+","1. """"
+",,,1,,Basket,,,no
+7,Verify user cannot proceed to checkout with empty basket,,Basket is empty.,User stays on basket page.,,high,critical,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Click \u201cContinue to checkout.\u201d""
+","1. """"
+","1. """"
+",,,1,,Basket,,,no
+8,Verify invalid credit card number is rejected.,,Basket has at least one item.,Basket unchanged.,,high,critical,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Enter valid billing""
+2. ""Enter invalid card number (letters or short digits).""
+","1. """"
+2. """"
+","1. """"
+2. """"
+",,,1,,Basket,,,no
+9,Verify expired credit card is rejected.,,Basket has at least one item.,Basket not cleared.,,high,critical,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Enter valid billing""
+2. ""Enter expired card date.""
+","1. """"
+2. """"
+","1. """"
+2. """"
+",,,1,,Basket,,,no
+10,Verify mandatory fields cannot be left empty.,,Basket has at least one item.,Order not placed.,,high,critical,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Leave Name\/Email\/Address\/Card number empty""
+2. ""Click on continue to check out button""
+","1. """"
+2. """"
+","1. """"
+2. """"
+",,,1,,Basket,,,no
+11,Verify invalid email format is rejected.,,Basket has at least one item.,Checkout blocked.,,high,critical,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Enter \u201cuser#mail\u201d instead of valid email""
+","1. """"
+","1. ""shaarawyziad#gmail.com""
+",,,1,,Basket,,,no
+12,Verify special characters in “First name” or “Last name” are not accepted.,,Basket has at least one item.,Checkout blocked.,,high,critical,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Enter invalid first name or last name.""
+","1. """"
+","1. ""John@""
+",,,1,,Basket,,,no
+13,Verify alphanumeric or special characters in credit card number are rejected.,,Basket has at least one item.,Order not processed.,,high,critical,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Enter invalid card number""
+","1. """"
+","1. ""1234abcd5678""
+",,,1,,Basket,,,no
+14,Verify CVV accepts only 3–4 digits.,,Basket has at least one item.,Checkout blocked.,,high,critical,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Enter CVV with letters or >4 digits""
+","1. """"
+","1. """"
+",,,1,,Basket,,,no
+15,Verify invalid promo code is rejected.,,Basket has at least one item.,Basket total stays same.,,high,critical,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Enter invalid promo code""
+","1. """"
+","1. ""XYZ123""
+",,,1,,Basket,,,no
+16,Verify basket counter does not go below 0.,,Basket empty.,No negative values displayed.,,undefined,major,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Try removing item when basket is empty.""
+","1. """"
+","1. """"
+",,,1,,Basket,,,no
