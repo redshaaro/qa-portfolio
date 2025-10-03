@@ -27,6 +27,8 @@ This portfolio demonstrates manual testing skills: test planning, scenario & tes
 
    
 📂 Full project files & screenshots: [Google Drive Link]([https://drive.google.com/drive/folders/1mSNmz3OuAfSjC2YNGAgBgM4srLtf85G?usp=sharing)
+📂 Full project files & screenshots: [Google Drive Link](https://drive.google.com/drive/folders/1mSNmz3OuAfSjC2YNGAgBgM4srLtf85G?usp=sharing)
+
 
 
 
