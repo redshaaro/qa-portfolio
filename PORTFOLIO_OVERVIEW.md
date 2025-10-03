@@ -26,4 +26,5 @@ This portfolio demonstrates manual testing skills: test planning, scenario & tes
 4. `05_TestCycleReport_*.pdf` shows execution summary.
 
    
-📂 Full project files & screenshots: [Google Drive Link]([https://drive.google.com/your-shared-link](https://drive.google.com/drive/folders/1-mSNmz3OuAfSjC2YNGAgBgM4srLtf85G?usp=sharing))
+📂 Full project files & screenshots: [Google Drive Link](https://drive.google.com/drive/folders/1mSNmz3OuAfSjC2YNGAgBgM4srLtf85G?usp=sharing)
+
