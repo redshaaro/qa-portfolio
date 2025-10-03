@@ -8,8 +8,8 @@ This portfolio demonstrates manual testing skills: test planning, scenario & tes
 
 ## Projects
 1. **TravelAgileWay — Flight Booking (Demo site)**  
-   - Deliverables: Test Plan, ~30 Test Cases, ~8 Defects, Test Cycle Report.  
-   - Focus: Login, Search & Booking, Passenger Validation.
+   - Deliverables: Test Plan, ~41 Test Cases, ~8 Defects, Test Cycle Report.  
+   - Focus: Booking, Passenger Validation.
 
 2. **ToDoList — James.am (SPA)**  
    - Deliverables: Test Plan, ~20 Test Cases (CRUD), 4 Defects, Persistence/Filter checks.  
@@ -25,5 +25,5 @@ This portfolio demonstrates manual testing skills: test planning, scenario & tes
 3. See `04_Defects_*.pdf` for example bug reports (with steps + screenshots).  
 4. `05_TestCycleReport_*.pdf` shows execution summary.
 
-Repo: https://github.com/yourusername/qa-portfolio  
-Google Drive (full artifacts): [paste drive link]
+   
+📂 Full project files & screenshots: [Google Drive Link]([https://drive.google.com/your-shared-link](https://drive.google.com/drive/folders/1-mSNmz3OuAfSjC2YNGAgBgM4srLtf85G?usp=sharing))
